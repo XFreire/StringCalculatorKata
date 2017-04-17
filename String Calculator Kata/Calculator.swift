@@ -11,6 +11,10 @@ import Foundation
 final class Calculator {
     
     func add(numbers: String) -> Int {
-        return 0
+        guard numbers.characters.count != 0 else { return 0 }
+        guard let num = Int(numbers) else { return 0 }
+        
+        return num
+        
     }
 }
