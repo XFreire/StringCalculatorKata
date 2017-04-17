@@ -12,9 +12,9 @@ final class Calculator {
     
     func add(numbers: String) -> Int {
         guard numbers.characters.count != 0 else { return 0 }
-        guard let num = Int(numbers) else { return 0 }
+        let array = numbers.components(separatedBy: ",").flatMap{ Int($0) }
         
-        return num
+        return array.reduce(0, +)
         
     }
 }
