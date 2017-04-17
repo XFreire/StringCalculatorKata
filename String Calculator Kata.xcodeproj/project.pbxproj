@@ -13,6 +13,7 @@
 		ACCF16A01EA5545C00E7AC45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCF169F1EA5545C00E7AC45 /* Assets.xcassets */; };
 		ACCF16A31EA5545C00E7AC45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCF16A11EA5545C00E7AC45 /* LaunchScreen.storyboard */; };
 		ACCF16AE1EA5545D00E7AC45 /* String_Calculator_KataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF16AD1EA5545D00E7AC45 /* String_Calculator_KataTests.swift */; };
+		ACCF16B91EA5546700E7AC45 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF16B81EA5546700E7AC45 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		ACCF16A91EA5545D00E7AC45 /* String Calculator KataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "String Calculator KataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCF16AD1EA5545D00E7AC45 /* String_Calculator_KataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_Calculator_KataTests.swift; sourceTree = "<group>"; };
 		ACCF16AF1EA5545D00E7AC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACCF16B81EA5546700E7AC45 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				ACCF16981EA5545C00E7AC45 /* AppDelegate.swift */,
 				ACCF169A1EA5545C00E7AC45 /* ViewController.swift */,
+				ACCF16B81EA5546700E7AC45 /* Calculator.swift */,
 				ACCF169C1EA5545C00E7AC45 /* Main.storyboard */,
 				ACCF169F1EA5545C00E7AC45 /* Assets.xcassets */,
 				ACCF16A11EA5545C00E7AC45 /* LaunchScreen.storyboard */,
@@ -203,6 +206,7 @@
 			files = (
 				ACCF169B1EA5545C00E7AC45 /* ViewController.swift in Sources */,
 				ACCF16991EA5545C00E7AC45 /* AppDelegate.swift in Sources */,
+				ACCF16B91EA5546700E7AC45 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

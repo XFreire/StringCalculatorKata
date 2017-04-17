@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+final class Calculator {
+    
+    func add(numbers: String) -> Int {
+        return 0
+    }
+}
