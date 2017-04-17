@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACCF16991EA5545C00E7AC45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF16981EA5545C00E7AC45 /* AppDelegate.swift */; };
+		ACCF169B1EA5545C00E7AC45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF169A1EA5545C00E7AC45 /* ViewController.swift */; };
+		ACCF169E1EA5545C00E7AC45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCF169C1EA5545C00E7AC45 /* Main.storyboard */; };
+		ACCF16A01EA5545C00E7AC45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCF169F1EA5545C00E7AC45 /* Assets.xcassets */; };
+		ACCF16A31EA5545C00E7AC45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCF16A11EA5545C00E7AC45 /* LaunchScreen.storyboard */; };
+		ACCF16AE1EA5545D00E7AC45 /* String_Calculator_KataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF16AD1EA5545D00E7AC45 /* String_Calculator_KataTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACCF16AA1EA5545D00E7AC45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACCF168D1EA5545C00E7AC45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACCF16941EA5545C00E7AC45;
+			remoteInfo = "String Calculator Kata";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACCF16951EA5545C00E7AC45 /* String Calculator Kata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "String Calculator Kata.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCF16981EA5545C00E7AC45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACCF169A1EA5545C00E7AC45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACCF169D1EA5545C00E7AC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACCF169F1EA5545C00E7AC45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACCF16A21EA5545C00E7AC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACCF16A41EA5545C00E7AC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACCF16A91EA5545D00E7AC45 /* String Calculator KataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "String Calculator KataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCF16AD1EA5545D00E7AC45 /* String_Calculator_KataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_Calculator_KataTests.swift; sourceTree = "<group>"; };
+		ACCF16AF1EA5545D00E7AC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACCF16921EA5545C00E7AC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCF16A61EA5545D00E7AC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACCF168C1EA5545C00E7AC45 = {
+			isa = PBXGroup;
+			children = (
+				ACCF16971EA5545C00E7AC45 /* String Calculator Kata */,
+				ACCF16AC1EA5545D00E7AC45 /* String Calculator KataTests */,
+				ACCF16961EA5545C00E7AC45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACCF16961EA5545C00E7AC45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACCF16951EA5545C00E7AC45 /* String Calculator Kata.app */,
+				ACCF16A91EA5545D00E7AC45 /* String Calculator KataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACCF16971EA5545C00E7AC45 /* String Calculator Kata */ = {
+			isa = PBXGroup;
+			children = (
+				ACCF16981EA5545C00E7AC45 /* AppDelegate.swift */,
+				ACCF169A1EA5545C00E7AC45 /* ViewController.swift */,
+				ACCF169C1EA5545C00E7AC45 /* Main.storyboard */,
+				ACCF169F1EA5545C00E7AC45 /* Assets.xcassets */,
+				ACCF16A11EA5545C00E7AC45 /* LaunchScreen.storyboard */,
+				ACCF16A41EA5545C00E7AC45 /* Info.plist */,
+			);
+			path = "String Calculator Kata";
+			sourceTree = "<group>";
+		};
+		ACCF16AC1EA5545D00E7AC45 /* String Calculator KataTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACCF16AD1EA5545D00E7AC45 /* String_Calculator_KataTests.swift */,
+				ACCF16AF1EA5545D00E7AC45 /* Info.plist */,
+			);
+			path = "String Calculator KataTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACCF16941EA5545C00E7AC45 /* String Calculator Kata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACCF16B21EA5545D00E7AC45 /* Build configuration list for PBXNativeTarget "String Calculator Kata" */;
+			buildPhases = (
+				ACCF16911EA5545C00E7AC45 /* Sources */,
+				ACCF16921EA5545C00E7AC45 /* Frameworks */,
+				ACCF16931EA5545C00E7AC45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "String Calculator Kata";
+			productName = "String Calculator Kata";
+			productReference = ACCF16951EA5545C00E7AC45 /* String Calculator Kata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACCF16A81EA5545D00E7AC45 /* String Calculator KataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACCF16B51EA5545D00E7AC45 /* Build configuration list for PBXNativeTarget "String Calculator KataTests" */;
+			buildPhases = (
+				ACCF16A51EA5545D00E7AC45 /* Sources */,
+				ACCF16A61EA5545D00E7AC45 /* Frameworks */,
+				ACCF16A71EA5545D00E7AC45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACCF16AB1EA5545D00E7AC45 /* PBXTargetDependency */,
+			);
+			name = "String Calculator KataTests";
+			productName = "String Calculator KataTests";
+			productReference = ACCF16A91EA5545D00E7AC45 /* String Calculator KataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACCF168D1EA5545C00E7AC45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alexandre Freire García";
+				TargetAttributes = {
+					ACCF16941EA5545C00E7AC45 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 8LNA9LB2Y8;
+						ProvisioningStyle = Automatic;
+					};
+					ACCF16A81EA5545D00E7AC45 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 8LNA9LB2Y8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACCF16941EA5545C00E7AC45;
+					};
+				};
+			};
+			buildConfigurationList = ACCF16901EA5545C00E7AC45 /* Build configuration list for PBXProject "String Calculator Kata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACCF168C1EA5545C00E7AC45;
+			productRefGroup = ACCF16961EA5545C00E7AC45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACCF16941EA5545C00E7AC45 /* String Calculator Kata */,
+				ACCF16A81EA5545D00E7AC45 /* String Calculator KataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACCF16931EA5545C00E7AC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCF16A31EA5545C00E7AC45 /* LaunchScreen.storyboard in Resources */,
+				ACCF16A01EA5545C00E7AC45 /* Assets.xcassets in Resources */,
+				ACCF169E1EA5545C00E7AC45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCF16A71EA5545D00E7AC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACCF16911EA5545C00E7AC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCF169B1EA5545C00E7AC45 /* ViewController.swift in Sources */,
+				ACCF16991EA5545C00E7AC45 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCF16A51EA5545D00E7AC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCF16AE1EA5545D00E7AC45 /* String_Calculator_KataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACCF16AB1EA5545D00E7AC45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACCF16941EA5545C00E7AC45 /* String Calculator Kata */;
+			targetProxy = ACCF16AA1EA5545D00E7AC45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACCF169C1EA5545C00E7AC45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACCF169D1EA5545C00E7AC45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACCF16A11EA5545C00E7AC45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACCF16A21EA5545C00E7AC45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACCF16B01EA5545D00E7AC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACCF16B11EA5545D00E7AC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACCF16B31EA5545D00E7AC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8LNA9LB2Y8;
+				INFOPLIST_FILE = "String Calculator Kata/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexandrefreire.String-Calculator-Kata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ACCF16B41EA5545D00E7AC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8LNA9LB2Y8;
+				INFOPLIST_FILE = "String Calculator Kata/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexandrefreire.String-Calculator-Kata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ACCF16B61EA5545D00E7AC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8LNA9LB2Y8;
+				INFOPLIST_FILE = "String Calculator KataTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexandrefreire.String-Calculator-KataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/String Calculator Kata.app/String Calculator Kata";
+			};
+			name = Debug;
+		};
+		ACCF16B71EA5545D00E7AC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8LNA9LB2Y8;
+				INFOPLIST_FILE = "String Calculator KataTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexandrefreire.String-Calculator-KataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/String Calculator Kata.app/String Calculator Kata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACCF16901EA5545C00E7AC45 /* Build configuration list for PBXProject "String Calculator Kata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACCF16B01EA5545D00E7AC45 /* Debug */,
+				ACCF16B11EA5545D00E7AC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACCF16B21EA5545D00E7AC45 /* Build configuration list for PBXNativeTarget "String Calculator Kata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACCF16B31EA5545D00E7AC45 /* Debug */,
+				ACCF16B41EA5545D00E7AC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACCF16B51EA5545D00E7AC45 /* Build configuration list for PBXNativeTarget "String Calculator KataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACCF16B61EA5545D00E7AC45 /* Debug */,
+				ACCF16B71EA5545D00E7AC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACCF168D1EA5545C00E7AC45 /* Project object */;
+}
