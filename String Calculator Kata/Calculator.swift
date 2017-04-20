@@ -17,7 +17,7 @@ final class Calculator {
     func add(numbers: String) throws -> Int {
         guard numbers.characters.count != 0 else { return 0 }
         let delimeters = CharacterSet([",", "\n", detectCustomDelimiter(nums: numbers)])
-        let array = numbers.components(separatedBy: delimeters).flatMap{ Int($0) }
+        let array = numbers.components(separatedBy: delimeters).flatMap{ Int($0) }.filter{ $0 <= 1000 }
         
         if thereAreNegativeValues(in: array) { throw CalculatorError.negativeValue }
         

@@ -52,6 +52,15 @@ class String_Calculator_KataTests: XCTestCase {
         XCTAssertThrowsError(try calculator.add(numbers: "1,-5")) { error in
             XCTAssertEqual(error as? CalculatorError, CalculatorError.negativeValue)
         }
+        XCTAssertThrowsError(try calculator.add(numbers: "1\n-5")) { error in
+            XCTAssertEqual(error as? CalculatorError, CalculatorError.negativeValue)
+        }
+    }
+    
+    func testAddWithNumberGreatherThan1000ShouldBeIgnored() {
+        XCTAssertEqual(15, try! calculator.add(numbers: "1,3,2,6,3,1001"))
+        XCTAssertEqual(4, try! calculator.add(numbers: "1,3,1050"))
+        XCTAssertEqual(1004, try! calculator.add(numbers: "1,3,1000"))
     }
     
 }
